@@ -93,7 +93,7 @@ Usage for bin/laralara.sh
 Typical usage (accepting the defaults) would be: `bin/laralara.sh -v -a my-app-name`, substituting your own `app-name`, of course.  
 
 Using all the command line parameters would look something like:  
-`bin/laralara.sh -v -a my-app-name --mysql-version 8.0 --php-version 7.2 -p ${HOME}/my-projects --web-rout-path /my-laravel-code-path-in-container`  
+`bin/laralara.sh -v -a my-app-name --mysql-version 8.0 --php-version 7.2 -p ${HOME}/my-projects --web-root-path /my-laravel-code-path-in-container`  
 
 **NOTE**: During the `build` events, you will see some warnings and errors; it is usually safe to ignore these, as long as the build process completes and the script doesn't exit prematurely.  
 
