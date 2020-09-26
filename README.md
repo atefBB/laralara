@@ -21,7 +21,7 @@ This script does the following:
 5. Once the containers are up and running, the script installs Laravel in the `workspace` container, installs all the Composer packages, and installs all the Node packages.  (And generates the initial Javascript files via Laravel Mix, too!)
 6. Finally, the script does an itial commit of the newly-created project, as well as committing the changed files in the Laradock submodule.  
 
-This script currently supports `mysql`, `redis` and `nginx` containers; if you need something more, you will need to con figure it yourself (if necessary -- a lot of laradock containers work as-is).
+This script currently supports `mysql`, `redis` and `nginx` containers; if you need something more, you will need to configure it yourself (if necessary -- a lot of laradock containers work as-is).
 
 I should probably emphasize that all the files created by this script will reside inside your new project directory; you should never see any new files or directories inside *this* project afte running the `bin/laralara.sh` script.  
 
